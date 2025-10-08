@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/mriduly/Desktop/project/idea_usher/contracts/Voting.sol": {
-      "lastModificationDate": 1759943380225,
-      "contentHash": "8246876b4dabf36b307b682a4be2a716",
+      "lastModificationDate": 1759945062280,
+      "contentHash": "3f42286c85c279aca65ef330595bd138",
       "sourceName": "contracts/Voting.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -33,7 +33,7 @@
         "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
-        "^0.8.19"
+        "^0.8.20"
       ],
       "artifacts": [
         "Voting"
