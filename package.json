@@ -1,14 +1,17 @@
 {
   "name": "idea_usher",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Secure Voting Smart Contract with tests and deployment scripts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "lint": "npx eslint . --ext .js,.ts,.sol",
+    "deploy:sepolia": "npx hardhat run --network sepolia scripts/deploy.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.2.3",
     "@nomiclabs/hardhat-etherscan": "^3.1.8",
